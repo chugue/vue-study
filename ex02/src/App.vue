@@ -1,9 +1,13 @@
 <template>
-	<div>Hello World</div>
+	<div></div>
 </template>
 
-<style>
-@import './assets/base.css';
-</style>
+<script>
+export default {
+	setup() {
+		return {};
+	},
+};
+</script>
 
-<script></script>
+<style lang="scss" scoped></style>
