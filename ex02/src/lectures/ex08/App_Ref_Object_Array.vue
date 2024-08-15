@@ -11,8 +11,8 @@ export default {
 		const count = ref(0);
 		const state = reactive({ count });
 
-		// console.log(count.value);
-		// console.log('state.count: ', state.count);
+		console.log(count.value);
+		console.log('state.count: ', state.count);
 
 		// ref -> Array
 		const message = ref('Hello');

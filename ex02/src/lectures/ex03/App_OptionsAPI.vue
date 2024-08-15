@@ -14,11 +14,11 @@ export default {
 	methods: {
 		increment() {
 			this.counter++;
-		}
+		},
 	},
 	mounted() {
 		console.log('컴포넌트가 마운트 되었습니다.');
-	}
+	},
 };
 </script>
 

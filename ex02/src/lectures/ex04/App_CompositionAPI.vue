@@ -19,13 +19,13 @@ export default {
 		const addReactiveMessage = () => {
 			reactiveMessage.value = reactiveMessage.value + '!';
 		};
-		// console.log('isRef(ReactiveMessage) : ', isRef(reactiveMessage));
+		console.log('isRef(ReactiveMessage) : ', isRef(reactiveMessage));
 
 		let normalMessage = 'Hellow Normal Message';
 		const addNormalMessage = () => {
 			normalMessage = normalMessage + '!';
 		};
-		// console.log('isRef(normalMessage) : ', isRef(normalMessage));
+		console.log('isRef(normalMessage) : ', isRef(normalMessage));
 
 		onMounted(() => {
 			console.log('onMounted');
